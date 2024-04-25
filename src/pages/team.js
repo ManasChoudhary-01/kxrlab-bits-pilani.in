@@ -11,42 +11,46 @@ import team from "../../public/images/backgrounds/team.jpeg";
 import kt from "../../public/images/kt.jpeg";
 import ab from "../../public/images/ab.jpeg";
 import ys from '../../public/images/team/YASHVARDHAN_SHARMA.jpg';
-
-import AADEESH_GARG from "../../public/images/team/AADEESH_GARG.jpeg";
-import ADITYA_DANDWATE from "../../public/images/team/ADITYA_DANDWATE.jpeg";
-import AKSHAY_SHUKLA from "../../public/images/team/AKSHAY_SHUKLA.jpeg";
-import AMEESH from "../../public/images/team/AMEESH.png";
-import ARCHIT_JAIN from "../../public/images/team/ARCHIT_JAIN.jpeg";
 import ARYAN_BAKSHI from "../../public/images/team/ARYAN_BAKSHI.jpeg";
-import ARYAN_SETH from "../../public/images/team/ARYAN_SETH.jpeg";
-import Ashwin from "../../public/images/team/Ashwin.jpg";
 import AVIRAL_GUPTA from "../../public/images/team/AVIRAL_GUPTA.jpeg";
-import GOBIND_SINGH from "../../public/images/team/GOBIND_SINGH.jpg";
-import GRANTH from "../../public/images/team/GRANTH.jpeg";
-import HARSHIT_SARAF from "../../public/images/team/HARSHIT_SARAF.jpeg";
-import HIMANSHU from "../../public/images/team/HIMANSHU.jpg";
 import JAY_AGARWAL from "../../public/images/team/JAY_AGARWAL.jpg";
-import KALPANA_PANDA from "../../public/images/team/KALPANA_PANDA.jpg";
-import KAVYA_AGARWAL from "../../public/images/team/KAVYA_AGARWAL.jpeg";
-import NITIN from "../../public/images/team/NITIN.jpeg";
-import RACHIT_GANDHI from "../../public/images/team/RACHIT_GANDHI.jpeg";
-import SAKSHAM_BANSAL from "../../public/images/team/SAKSHAM_BANSAL.jpeg";
-import SHIVIKA from "../../public/images/team/SHIVIKA.jpg";
 import SHUBHANG from "../../public/images/team/SHUBHANG.jpeg";
-import SIDDHARTHA_GOTUR from "../../public/images/team/SIDDHARTHA_GOTUR.png";
-import SRIRAM from "../../public/images/team/SRIRAM.jpeg";
-import KAVAN_THAKKAR from "../../public/images/team/KAVAN_THAKKAR.png";
-import SOURABH_BHANDARI from "../../public/images/team/SOURABH_BHANDARI.jpeg";
-import UTKARSH from "../../public/images/team/UTKARSH.jpeg";
 import VARUN_SAHNI from "../../public/images/team/VARUN_SAHNI.jpg";
-import Yatharth from "../../public/images/team/Yatharth.png";
-import KRISHAY_PRAKASH from "../../public/images/team/KRISHAY_PRAKASH.png";
-import NISHANT_KUMAR from "../../public/images/team/NISHANT_KUMAR.jpg";
-import PARTH_KHANDELWAL from "../../public/images/team/PARTH.jpg";
-import SAMEER_SINGLA from "../../public/images/team/SAMEER_SINGLA.jpg";
-import VIPUL_KOTHA from "../../public/images/team/VIPUL_KOTHA.jpeg";
-import NISHIT_SINGH from "../../public/images/team/NISHIT_SINGH.jpeg";
-import TANYA from "../../public/images/team/TANYA.jpg";
+import SIDDHARTH from "../../public/images/team/SIDDHARTH.jpg";
+import SHREY from "../../public/images/team/SHREY.jpeg";
+import ROHAN from "../../public/images/team/ROHAN.jpg";
+import ASHISH from "../../public/images/team/ASHISH.jpg";
+import AKSHAY from "../../public/images/team/AKSHAY.jpeg";
+import AMRITPAL from "../../public/images/team/AMRITPAL.jpg";
+import DARSHBIR from "../../public/images/team/DARSHBIR.jpg";
+import AMRIT from "../../public/images/team/AMRIT.jpg";
+import ADITYA from "../../public/images/team/ADITYA.jpg";
+import VISHNU from "../../public/images/team/VISHNU.jpeg";
+
+import KRISH from "../../public/images/team/KRISH.jpeg";
+import ANSHUMAN from "../../public/images/team/ANSHUMAN.jpeg";
+import SARTHAK from "../../public/images/team/SARTHAK.jpg";
+import ANKUR from "../../public/images/team/ANKUR.jpeg";
+import DHYANN from "../../public/images/team/DHYANN.jpg";
+import ABHEEK from "../../public/images/team/ABHEEK.jpeg";
+import ARYAN from "../../public/images/team/ARYAN.jpeg";
+import NEHA from "../../public/images/team/NEHA.jpg";
+import AVICHAL from "../../public/images/team/AVICHAL.jpg";
+import PRATEEK from "../../public/images/team/PRATEEK.jpeg";
+import PRAROOP from "../../public/images/team/PRAROOP.jpg";
+import SIDDHANT from "../../public/images/team/SIDDHANT.jpg";
+
+
+
+
+
+import MANAS from "../../public/images/team/MANAS.png";
+import BALA from "../../public/images/team/BALA.jpeg";
+import RUDRA from "../../public/images/team/RUDRA.gif";
+import RIYA from "../../public/images/team/RIYA.jpg";
+import ADITI from "../../public/images/team/ADITI.jpg";
+import YASHWANTH from "../../public//images/team/YASHWANTH.jpg";
+import TANYA from "../../public/images/team/TANYA.jpeg";
 import HITANSH from "../../public/images/team/HITANSH.jpg";
 
 const coreTeam = [
@@ -67,147 +71,199 @@ const coreTeam = [
 ];
 
 const projectTeam = [
-  {
-    name: "Nitin Aravind Birur",
-    role: "Project Team Lead",
-    linkedIn: "https://www.linkedin.com/in/nitin-a-b-921285229",
-    link: "https://github.com/NitinAB1108",
-    image: NITIN,
-  },
   
   {
+    name: "Siddharth Khemani ",
+    role: "Development Team",
+    linkedIn: "https://www.linkedin.com/in/siddharth-khemani-028588174?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    link: "https://github.com/Shadow2073",
+    image: SIDDHARTH,
+  },
+  {
+    name: "Shrey Bansal",
+    role: "Development Team",
+    linkedIn: "https://www.linkedin.com/in/-shreybansal",
+    link: "https://github.com/DRAGOON21S",
+    image: SHREY,
+  },
+  {
+    name: "Rohan Pandey",
+    role: "Development Team",
+    linkedIn: "https://www.linkedin.com/in/rohan-pandey-5a4293299/",
+    link: "https://github.com/sheikhjabooti",
+    image: ROHAN,
+  },
+  {
+    name: "Ashish Sam",
+    role: "Development Team",
+    linkedIn: "https://www.linkedin.com/in/ashish-sam-921a10279?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    link: "https://github.com/ashish-sam",
+    image: ASHISH,
+  },
+  {
     name: "Akshay Shukla",
-    role: "Project Team",
+    role: "Development Team",
     linkedIn: "https://www.linkedin.com/in/akshay-shukla-5a589b256/",
     link: "https://github.com/Akshay1032",
-    image: AKSHAY_SHUKLA,
+    image: AKSHAY,
   },
   {
-    name: "Himanshu",
-    role: "Project Team",
-    linkedIn: "http://www.linkedin.com/in/himanshu-yadav-837682258",
-    link: "https://github.com/BreezyThrone",
-    image: HIMANSHU,
+    name: "Amrit Lahari",
+    role: "Development Team",
+    linkedIn: "https://www.linkedin.com/in/amrit-lahari-3aa437289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    link: "https://github.com/Amritjain08?tab=repositories",
+    image: AMRIT,
   },
+ 
+  {
+    name: "Darshbir Singh",
+    role: "Development Team",
+    linkedIn: "linkedin.com/in/darshbir-singh-51741b266/",
+    link: "github.com/Darshbir",
+    image: DARSHBIR,
+  },
+  {
+    name: "Sarthak Sur",
+    role: "Development Team",
+    linkedIn: "https://www.linkedin.com/in/sarthak-sur-007730280/",
+    link: "https://github.com/DeaDSh0t-44",
+    image: SARTHAK,
+  
+  },
+  {
+    name: "Ankur Basavarsu",
+    role: "Development Team",
+    linkedIn: "www.linkedin.com/in/ankur-basavarsu-120649261",
+    link: "https://github.com/AnkurB24",
+    image: ANKUR,
+  },
+ 
+  
+ 
   {
     name: "Shubhang Gautam",
-    role: "Project Team",
+    role: "Development Team",
     linkedIn: "https://www.linkedin.com/in/shubhang-gautam-821b09251",
     link: "https://github.com/gautamshubhang",
     image: SHUBHANG,
   },
  
-  {
-    name: "Sriram Hebbale",
-    role: "Project Team",
-    linkedIn: "https://www.linkedin.com/in/sriram-hebbale-b1113a25a/",
-    link: "https://github.com/sriram-17-17",
-    image: SRIRAM,
-  },
-  {
-    name: "Saksham Bansal",
-    role: "Project Team",
-    linkedIn: "https://www.linkedin.com/in/saksham-bansal-b17047257/",
-    link: "https://github.com/Saksham86",
-    image: SAKSHAM_BANSAL,
-  },
+  
+  
   {
     name: "Jay Agarwal",
-    role: "Project Team",
+    role: "Development Team",
     linkedIn: "https://www.linkedin.com/in/jay-agarwal-86067427a/",
     link: "https://github.com/JayAgarwal25",
     image: JAY_AGARWAL,
   },
   
+
   {
-    name: "Harshit Saraf",
-    role: "Project Team",
-    linkedIn: "https://www.linkedin.com/in/harshit-saraf-494450230",
-    link: "https://github.com/HrSf-01",
-    image: HARSHIT_SARAF,
+    name: "Abheek Arora ",
+    role: "Development Team",
+    linkedIn: "https://www.linkedin.com/in/abheek-arora-7691a1280/",
+    link: "https://github.com/Codafolife",
+    image: ABHEEK,
   },
+
   {
-    name: "Parth Khandelwal",
-    role: "Project Team",
-    linkedIn: "",
-    link: "",
-    image: PARTH_KHANDELWAL,
+    name: "Aryan Sharma",
+    role: "Development Team",
+    linkedIn: "https://in.linkedin.com/in/aryan-sharma-23150921a",
+    link: "https://github.com/im-NL",
+    image: ARYAN,
   },
+
   {
-    name: "Amandeep Singh",
-    role: "Project Team",
-    linkedIn: "",
-    link: "",
-    image: "",
+    name: "Avichal Dwivedi",
+    role: "Development Team",
+    linkedIn: "https://www.linkedin.com/in/avichal-dwivedi-789a66288?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    link: "https://github.com/AvichalDwivedi2205",
+    image: AVICHAL,
   },
+
+
+  {
+    name: "Praroop Garg",
+    role: "Development Team",
+    linkedIn: "https://www.linkedin.com/in/praroop-garg-742856252",
+    link: "github.com/slydite",
+    image: PRAROOP,
+  },
+ 
 ];
 
 const researchTeam = [
   {
-    name: "Aryan Seth",
-    role: "Research Team Lead",
-    linkedIn: "https://www.linkedin.com/in/aryanseth",
-    link: "http://www.github.com/Aryan-Seth",
-    image: ARYAN_SETH,
+    name: "Amritpal Singh",
+    role: "Research Team",
+    linkedIn: "https://www.linkedin.com/in/amritpal-singh-420557280/",
+    link: "https://github.com/AS54321",
+    image: AMRITPAL,
+  },
+  {
+    name: "Aditya Mittal",
+    role: "Research Team",
+    linkedIn: "www.linkedin.com/in/adityamittal1000101",
+    link: "https://github.com/Elactix-Nova",
+    image: ADITYA,
+  },
+  {
+    name: "Vishnu Hari",
+    role: "Research Team",
+    linkedIn: "linkedin.com/in/hvishnu",
+    link: "github.com/lycogno",
+    image: VISHNU,
+  },
+  {
+    name: "Krish Bhatnagar",
+    role: "Research Team",
+    linkedIn: "https://www.linkedin.com/in/krish-bhatnagar-1030b2306/",
+    link: "https://github.com/k-bhatnagar1",
+    image: KRISH,
+  },
+  {
+    name: "Anshuman Dash ",
+    role: "Research Team",
+    linkedIn: "https://www.linkedin.com/in/anshuman-dash-2747b424a/",
+    link: "https://github.com/Ash0271",
+    image: ANSHUMAN,
+  },
+  {
+    name: "Dhyann Olemmyan",
+    role: "Research Team",
+    linkedIn: "",
+    link: "https://github.com/0lem1of1",
+    image: DHYANN,
+  },
+
+  {
+    name: "Neha Gujjari",
+    role: "Research Team",
+    linkedIn: "https://www.linkedin.com/in/neha-gujjari-22874029a/",
+    link: "https://github.com/neha305",
+    image: NEHA,
   },
  
+
   {
-    name: "Ashwin Piyush",
+    name: "Prateek Agarwal",
     role: "Research Team",
-    linkedIn: "http://www.linkedin.com/in/ashwins-860442226",
-    link: "https://github.com/ashwinsathish?tab=repositories",
-    image: Ashwin,
-  },
-  {
-    name: "Saurabh Bhandari",
-    role: "Research Team",
-    linkedIn: "https://linkedin.com/in/saurabh-nsk",
-    link: "https://github.com/SaurabhRBhandari",
-    image: SOURABH_BHANDARI,
-  },
-  {
-    name: "Aditya Dandwate",
-    role: "Research Team",
-    linkedIn: "https://www.linkedin.com/in/aditya-dandwate-269b91225",
-    link: "https://github.com/AD-lite24",
-    image: ADITYA_DANDWATE,
-  },
-  {
-    name: "Aadeesh Garg",
-    role: "Research Team",
-    linkedIn: "https://www.linkedin.com/in/aadeeshgarg/",
-    link: "https://github.com/AadeeshGarg",
-    image: AADEESH_GARG,
+    linkedIn: "https://www.linkedin.com/in/prateek-agarwal-877184280/",
+    link: "https://github.com/Prateek-Agarwal2006",
+    image: PRATEEK,
   },
   
+
   {
-    name: "Kalpana Panda",
+    name: "Siddhant Mishra",
     role: "Research Team",
-    linkedIn: "https://www.linkedin.com/in/kalpana-panda-428bb324b/",
-    link: "https://github.com/KP08082132",
-    image: KALPANA_PANDA,
+    linkedIn: "https://www.linkedin.com/in/siddhant-mishra-407b222a4",
+    link: "https://github.com/Sid2818",
+    image: SIDDHANT,
   },
-  {
-    name: "Yatharth Singh",
-    role: "Research Team",
-    linkedIn: "https://www.linkedin.com/in/yath",
-    link: "https://github.com/lefteryx",
-    image: Yatharth,
-  },
-  {
-    name: "Siddhartha Gotur",
-    role: "Research Team",
-    linkedIn: "https://github.com/sidd1237",
-    link: "https://github.com/sidd1237",
-    image: SIDDHARTHA_GOTUR,
-  },
-  {
-    name: "Ameesh Sethi",
-    role: "Research Team",
-    linkedIn: "https://www.linkedin.com/in/ameesh-sethi/",
-    link: "https://github.com/Quick-One",
-    image: AMEESH,
-  },
+ 
   {
     name: "Aviral Gupta",
     role: "Research Team",
@@ -215,142 +271,71 @@ const researchTeam = [
     link: "http://github.com/aviral2004",
     image: AVIRAL_GUPTA,
   },
-  {
-    name: "Gobind Singh",
-    role: "Research Team",
-    linkedIn: "https://www.linkedin.com/in/gobind-singh-b6024a257",
-    link: "https://github.com/gobind-singh23",
-    image: GOBIND_SINGH,
-  },
+  
 ];
 
 const webTeam = [
   {
-    name: "Kavan Thakkar",
-    role: "WebDev Lead",
-    linkedIn: "https://www.linkedin.com/in/kavan-thakkar/",
-    link: "https://github.com/Ka1Thakkar",
-    image: KAVAN_THAKKAR,
-  },
-  {
     name: "Hitansh Chadha",
-    role: "WebDev Team",
-    linkedIn: "",
-    link: "",
+    role: "Events Team",
+    linkedIn: "https://www.linkedin.com/in/hitansh-chadha-07ba5219b/",
+    link: "https://github.com/hitanshchadha",
     image:HITANSH,
   },
   {
     name: "Tanya Keshwani",
-    role: "WebDev Team",
-    linkedIn: "",
-    link: "",
+    role: "Events Team",
+    linkedIn: "https://www.linkedin.com/in/tanya-keshwani-a98b39212/",
+    link: "https://github.com/taya12hu",
     image:TANYA,
   },
   {
-    name: "Parikshit Singh",
-    role: "WebDev Team",
-    linkedIn: "",
-    link: "",
-    image: "",
+    name: "Yashwanth Varma Dandu",
+    role: "Events Team",
+    linkedIn: "https://www.linkedin.com/in/yashwanth-varma-dandu-2b3608292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    link: "https://github.com/Yashwanth-2118",
+    image: YASHWANTH,
   },
+  {
+    name: "Aditi Bansal",
+    role: "Events Team",
+    linkedIn: "https://www.linkedin.com/in/aditi-bansal-6995151bb/",
+    link: "https://github.com/aditibansall",
+    image:ADITI,
+  },
+  {
+    name: "Riya Mittal",
+    role: "Events Team",
+    linkedIn: "https://www.linkedin.com/in/riya-mittal-69bb53213/",
+    link: "https://github.com/rmtl2111/",
+    image: RIYA,
+  },
+  {
+    name: "Manas Choudhary",
+    role: "Events Team",
+    linkedIn: "https://www.linkedin.com/in/manas-choudhary-56374028b",
+    link: "https://github.com/ManasChoudhary-01",
+    image: MANAS,
+  },
+  {
+    name: "Bala Avijit Chaturvedula",
+    role: "Events Team",
+    linkedIn: "https://www.linkedin.com/in/bala-avijit-chaturvedula-8773a1262?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+    link: "",
+    image: BALA,
+
+  },
+  {
+    name: "Rudra Khaitan",
+    role: "Events Team",
+    linkedIn: "https://www.linkedin.com/in/rudra-khaitan-1aa4b7289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    link: "https://github.com/Rukh79",
+    image: RUDRA,
+  },
+
 ];
 
-const psdTeam = [
-  {
-    name: "Shivika Dhandhania",
-    role: "PSD Team",
-    linkedIn: "https://www.linkedin.com/in/shivika-dhandhania-4b3b4521b",
-    image: SHIVIKA,
-  },
-];
-const vidTeam = [
-  {
-    name: "Srinivas shankar",
-    role: "Video Team Lead",
-    linkedIn: "",
-    image:"",
-  },
-];
-const appdevTeam = [
-  {
-    name: "Suryash Singh",
-    role: "AppDev Team ",
-    linkedIn: "",
-    image:"",
-  },
-  {
-    name: "Nishant Kumar",
-    role: "AppDev Team ",
-    linkedIn: "",
-    image:NISHANT_KUMAR,
-  },
-];
-const design2Team = [
-  {
-    name: "Bala Avijit Chaturveda",
-    role: "2D Design Team Lead ",
-    linkedIn: "",
-    image:"",
-  },
-  {
-    name: "Vipul Kotha",
-    role: "2D Design Team ",
-    linkedIn: "",
-    image:VIPUL_KOTHA,
-  },
-  {
-    name: "Krishay Prakash",
-    role: "2D Design Team ",
-    linkedIn: "",
-    image:KRISHAY_PRAKASH,
-  },
-  {
-    name: "Yuvika Bakshi ",
-    role: "2D Design Team ",
-    linkedIn: "",
-    image:"",
-  },
-  
-];
-const design3Team = [
-  {
-    name: "Bala Avijit Chaturveda",
-    role: "3D Design Team Lead ",
-    linkedIn: "",
-    image:"",
-  },
-  {
-    name: "Mayank Garg",
-    role: "3D Design Team Lead",
-    linkedIn: "",
-    image:"",
-  },
-  {
-    name: "Nishit Singh",
-    role: "3D Design Team ",
-    linkedIn: "",
-    image:NISHIT_SINGH,
-  },
-  {
-    name: "Rohan Pandey ",
-    role: "3D Design Team ",
-    linkedIn: "",
-    image:"",
-  },
-  {
-    name: "Sameer Singla",
-    role: "3D Design Team ",
-    linkedIn: "",
-    image:SAMEER_SINGLA,
-  },
-  {
-    name: "Sanjana",
-    role: "3D Design Team ",
-    linkedIn: "",
-    image:"",
-  },
-  
-];
+
 const facultyTeam = [
   {
     name: "Dr. Kamlesh Tiwari",
@@ -450,7 +435,7 @@ const contact = () => {
           </div>
 
           <AnimatedText
-            text="XR Team"
+            text="Development Team"
             className="my-16 !text-6xl sm:!text-4xl xs:!text-4xl sm:mb-8 "
           />
           <div className="grid grid-cols-5 items-center gap-4 gap-y-10 justify-center md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4">
@@ -486,99 +471,12 @@ const contact = () => {
               );
             })}
           </div>
-          <AnimatedText
-            text="2D DESIGN Team"
-            className="my-16 !text-6xl sm:!text-4xl xs:!text-4xl sm:mb-8 "
-          />
-          <div className="grid grid-cols-5 items-center gap-4 gap-y-10 justify-center md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4">
-            {design2Team.map((member) => {
-              return (
-                <Team
-                  name={member.name}
-                  role={member.role}
-                  linkedIn={member.linkedIn}
-                  link={member.link}
-                  image={member.image}
-                  key={member.name}
-                />
-              );
-            })}
-          </div>
+          
 
-          <AnimatedText
-            text="3D DESIGN Team"
-            className="my-16 !text-6xl sm:!text-4xl xs:!text-4xl sm:mb-8 "
-          />
-          <div className="grid grid-cols-5 items-center gap-4 gap-y-10 justify-center md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4">
-            {design3Team.map((member) => {
-              return (
-                <Team
-                  name={member.name}
-                  role={member.role}
-                  linkedIn={member.linkedIn}
-                  link={member.link}
-                  image={member.image}
-                  key={member.name}
-                />
-              );
-            })}
-          </div>
+          
 
-          <AnimatedText
-            text="APPDEV Team"
-            className="my-16 !text-6xl sm:!text-4xl xs:!text-4xl sm:mb-8 "
-          />
-          <div className="flex items-center justify-center gap-6">
-            {appdevTeam.map((member) => {
-              return (
-                <Team
-                  name={member.name}
-                  role={member.role}
-                  linkedIn={member.linkedIn}
-                  link={member.link}
-                  image={member.image}
-                  key={member.name}
-                />
-              );
-            })}
-          </div>
-
-          <AnimatedText
-            text="PSD Team"
-            className="my-16 !text-6xl sm:!text-4xl xs:!text-4xl sm:mb-8 "
-          />
-          <div className="flex items-center justify-center">
-            {psdTeam.map((member) => {
-              return (
-                <Team
-                  name={member.name}
-                  role={member.role}
-                  linkedIn={member.linkedIn}
-                  link={member.link}
-                  image={member.image}
-                  key={member.name}
-                />
-              );
-            })}
-          </div>
-          <AnimatedText
-            text="vIDEO Team"
-            className="my-16 !text-6xl sm:!text-4xl xs:!text-4xl sm:mb-8 "
-          />
-          <div className="flex items-center justify-center">
-            {vidTeam.map((member) => {
-              return (
-                <Team
-                  name={member.name}
-                  role={member.role}
-                  linkedIn={member.linkedIn}
-                  link={member.link}
-                  image={member.image}
-                  key={member.name}
-                />
-              );
-            })}
-          </div>
+          
+         
         </Layout>
       </main>
     </>
