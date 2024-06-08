@@ -118,8 +118,8 @@ const projectTeam = [
   {
     name: "Darshbir Singh",
     role: "Development Team",
-    linkedIn: "linkedin.com/in/darshbir-singh-51741b266/",
-    link: "github.com/Darshbir",
+    linkedIn: "https://linkedin.com/in/darshbir-singh-51741b266/",
+    link: "https://github.com/Darshbir",
     image: DARSHBIR,
   },
   {
