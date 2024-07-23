@@ -304,7 +304,7 @@ const project = () => {
               />
             </div>
             <div className="col-span-12">
-            <FeaturedProject
+            {/* <FeaturedProject
                 type="KXR"
                 title="CELESTIAL DREAMSCAPE"
                 summary="Unveiling soon!"
@@ -312,7 +312,7 @@ const project = () => {
                 link=""
                 sourceLink=""
                 source="linkedin"
-              />
+              /> */}
             </div>
 
           </div>

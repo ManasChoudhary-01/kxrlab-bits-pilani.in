@@ -175,6 +175,12 @@ const Navbar = () => {
               className=""
               toggle={handleClick}
             />
+            <CustomMobileLink
+              href="/events"
+              title="Events"
+              className=""
+              toggle={handleClick}
+            />
           </nav>
 
           <nav className="flex items-center justify-center flex-wrap mt-2">
