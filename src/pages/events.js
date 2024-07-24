@@ -223,7 +223,7 @@ const events = () => {
               <FeaturedEvent
                 type="Oasis Event"
                 title="Pixel Play Stalls"
-                summary="Kalipatnapu AR/VR Lab wrapped up an incredible workshop dedicated to unraveling the potential of Augmented Reality(AR) for the students and other guests who have attended Oasis 2023, the cultural fest of BITS Pilani. Our mission was simple yet determined to imbibe participants with the skills to create their own AR applications.The highlight of the event was our hands-on AR app-building session, where attendees built an AR application on Unity for the Microsoft HoloLens 2. This workshop was an interesting learning experience and inspired many of its attendees to learn more about Augmented Reality and its applications. We also set up a stall in collaboration with Coding Club BITS Pilani  where participants got to experience the immersive world of Virtual Reality through a lineup of VR games using cutting-edge VR gear like Meta Quest 2 and PSVR 2 headsets made accessible at affordable prices."
+                summary="Kalipatnapu AR/VR Lab wrapped up an incredible workshop dedicated to unraveling the potential of Augmented Reality(AR) for the students and other guests who have attended Oasis 2023, the cultural fest of BITS Pilani. We also set up a stall  where participants got to experience the immersive world of Virtual Reality through a lineup of VR games using cutting-edge VR gear like Meta Quest 2 and PSVR 2 headsets, all made accessible at affordable prices."
                 img1={event2}
                 img2={event21}
                 img3={event22}
