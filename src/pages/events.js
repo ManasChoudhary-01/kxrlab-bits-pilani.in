@@ -10,9 +10,11 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';
+import "swiper/css/pagination";
+// import styles from "../styles/events.module.css";
 
 // import required modules
-import { Navigation } from 'swiper/modules';
+import { Autoplay, Navigation, Pagination } from 'swiper/modules';
 
 import measuring from "../../public/images/projects/AR-tape-measurement.png";
 import { motion } from "framer-motion";
@@ -32,7 +34,7 @@ import event21 from "../../public/images/Events/event21.jpg"
 import event22 from "../../public/images/Events/event22.jpg"
 import event23 from "../../public/images/Events/event23.jpg"
 
-const FramerImage = motion(Image);
+// const FramerImage = motion(Image);
 
 // const slideAnimation = (direction, duration) => ({
 //   initial: { opacity: 0, x: direction === 'left' ? -100 : 100 },
@@ -59,6 +61,7 @@ const FeaturedEvent = ({
         href={link}
         target="_blank"
         className="w-1/2 cursor-pointer overflow-hidden lg:w-full"
+        onClick={(e) => e.preventDefault()}
       >
         {/* <FramerImage
           src={img}
@@ -71,8 +74,18 @@ const FeaturedEvent = ({
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
           {...slideAnimation("left", 0.5)}
         /> */}
-        <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
-          <SwiperSlide style={{display: (img1 === null) ? "none" : null}}>
+        <Swiper
+          navigation={true}
+          // navigation={{
+          //   nextEl: `.${styles.swiperButtonNext}`,
+          //   prevEl: `.${styles.swiperButtonPrev}`,
+          // }}
+          modules={[Autoplay, Navigation, Pagination]}
+          className="mySwiper"
+          loop={true}
+          autoplay={true}
+          pagination={{ type: "bullets", clickable: true }} >
+          <SwiperSlide style={{ display: (img1 === null) ? "none" : null }}>
             <motion.img
               src={img1.src}
               alt="img"
@@ -82,34 +95,34 @@ const FeaturedEvent = ({
               {...slideAnimation('left', 0.5)}
             />
           </SwiperSlide>
-          <SwiperSlide style={{display: (img2 === "null") ? "none" : null}}>
+          <SwiperSlide style={{ display: (img2 === "null") ? "none" : null }}>
             <motion.img
               src={img2.src}
               alt="img"
               className="w-full h-auto"
               priority
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
-              // {...slideAnimation('left', 0.5)}
+            // {...slideAnimation('left', 0.5)}
             />
           </SwiperSlide>
-          <SwiperSlide style={{display: (img3 === "null") ? "none" : null}}>
+          <SwiperSlide style={{ display: (img3 === "null") ? "none" : null }}>
             <motion.img
               src={img3.src}
               alt="img"
               className="w-full h-auto"
               priority
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
-              // {...slideAnimation('left', 0.5)}
+            // {...slideAnimation('left', 0.5)}
             />
           </SwiperSlide>
-          <SwiperSlide style={{display: (img4 === "null") ? "none" : null}}>
+          <SwiperSlide style={{ display: (img4 === "null") ? "none" : null }}>
             <motion.img
               src={img4.src}
               alt="img"
               className="w-full h-auto"
               priority
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
-              // {...slideAnimation('left', 0.5)}
+            // {...slideAnimation('left', 0.5)}
             />
           </SwiperSlide>
         </Swiper>
@@ -210,7 +223,7 @@ const events = () => {
               <FeaturedEvent
                 type="Oasis Event"
                 title="Pixel Play Stalls"
-                summary="An educational event on Extended Reality (XR) technology was a success, featuring discussions on basics, applications, success stories, motivation, coding tools, best practices, and challenging problems. The event expanded our understanding of the potential of AR/VR."
+                summary="Kalipatnapu AR/VR Lab wrapped up an incredible workshop dedicated to unraveling the potential of Augmented Reality(AR) for the students and other guests who have attended Oasis 2023, the cultural fest of BITS Pilani. Our mission was simple yet determined to imbibe participants with the skills to create their own AR applications.The highlight of the event was our hands-on AR app-building session, where attendees built an AR application on Unity for the Microsoft HoloLens 2. This workshop was an interesting learning experience and inspired many of its attendees to learn more about Augmented Reality and its applications. We also set up a stall in collaboration with Coding Club BITS Pilani  where participants got to experience the immersive world of Virtual Reality through a lineup of VR games using cutting-edge VR gear like Meta Quest 2 and PSVR 2 headsets made accessible at affordable prices."
                 img1={event2}
                 img2={event21}
                 img3={event22}
