@@ -36,11 +36,11 @@ import event23 from "../../public/images/Events/event23.jpg"
 
 // const FramerImage = motion(Image);
 
-// const slideAnimation = (direction, duration) => ({
-//   initial: { opacity: 0, x: direction === 'left' ? -100 : 100 },
-//   animate: { opacity: 1, x: 0 },
-//   transition: { duration },
-// });
+const slideAnimation1 = (direction, duration) => ({
+  initial: { opacity: 0, x: direction === 'left' ? -100 : 100 },
+  animate: { opacity: 1, x: 0 },
+  transition: { duration },
+});
 
 const FeaturedEvent = ({
   type,
@@ -76,18 +76,31 @@ const FeaturedEvent = ({
         /> */}
         <Swiper
           navigation={true}
-          // navigation={{
-          //   nextEl: `.${styles.swiperButtonNext}`,
-          //   prevEl: `.${styles.swiperButtonPrev}`,
-          // }}
           modules={[Autoplay, Navigation, Pagination]}
           className="mySwiper"
           loop={true}
-          autoplay={true}
-          pagination={{ type: "bullets", clickable: true }} >
-          <SwiperSlide style={{ display: (img1 === null) ? "none" : null }}>
+          autoplay={{
+            delay: 3500,
+            disableOnInteraction: false,
+          }}
+          pagination={{ type: "bullets", clickable: true }}
+          style={{
+            "--swiper-pagination-color": "#fff",
+            "--swiper-navigation-color": "#fff",
+          }} >
+          <SwiperSlide style={{ display: (img1 === null) ? "none" : null, transition: "ease-in-out" }}>
             <motion.img
               src={img1.src}
+              alt="img"
+              className="w-full h-auto"
+              priority
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
+              {...slideAnimation1('left', 0.5)}
+            />
+          </SwiperSlide>
+          <SwiperSlide style={{ display: (img2 === "null") ? "none" : null, transition: "ease-in-out" }}>
+            <motion.img
+              src={img2.src}
               alt="img"
               className="w-full h-auto"
               priority
@@ -95,34 +108,24 @@ const FeaturedEvent = ({
               {...slideAnimation('left', 0.5)}
             />
           </SwiperSlide>
-          <SwiperSlide style={{ display: (img2 === "null") ? "none" : null }}>
-            <motion.img
-              src={img2.src}
-              alt="img"
-              className="w-full h-auto"
-              priority
-              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
-            // {...slideAnimation('left', 0.5)}
-            />
-          </SwiperSlide>
-          <SwiperSlide style={{ display: (img3 === "null") ? "none" : null }}>
+          <SwiperSlide style={{ display: (img3 === "null") ? "none" : null, transition: "ease-in-out" }}>
             <motion.img
               src={img3.src}
               alt="img"
               className="w-full h-auto"
               priority
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
-            // {...slideAnimation('left', 0.5)}
+              {...slideAnimation1('left', 0.5)}
             />
           </SwiperSlide>
-          <SwiperSlide style={{ display: (img4 === "null") ? "none" : null }}>
+          <SwiperSlide style={{ display: (img4 === "null") ? "none" : null, transition: "ease-in-out" }}>
             <motion.img
               src={img4.src}
               alt="img"
               className="w-full h-auto"
               priority
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
-            // {...slideAnimation('left', 0.5)}
+              {...slideAnimation1('left', 0.5)}
             />
           </SwiperSlide>
         </Swiper>
@@ -137,7 +140,7 @@ const FeaturedEvent = ({
         <Link href={link} target="_blank">
           <motion.h2
             className="my-2 w-full text-left text-4xl font-bold hover:underline hover:underline-offset-2"
-            {...slideAnimation("right", 0.5)}
+            {...slideAnimation1("right", 0.5)}
           >
             {title}
           </motion.h2>
