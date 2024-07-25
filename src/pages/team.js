@@ -71,7 +71,23 @@ const coreTeam = [
 ];
 
 const projectTeam = [
+
+  {
+    name: "Aryan Sharma",
+    role: "Head (Development Team)",
+    linkedIn: "https://in.linkedin.com/in/aryan-sharma-23150921a",
+    link: "https://github.com/im-NL",
+    image: ARYAN,
+  },
   
+  {
+    name: "Ankur Basavarsu",
+    role: "Joint-Head (Development Team)",
+    linkedIn: "https://www.linkedin.com/in/ankur-basavarsu-120649261",
+    link: "https://github.com/AnkurB24",
+    image: ANKUR,
+  },
+
   {
     name: "Siddharth Khemani ",
     role: "Development Team",
@@ -130,15 +146,7 @@ const projectTeam = [
     image: SARTHAK,
   
   },
-  {
-    name: "Ankur Basavarsu",
-    role: "Development Team",
-    linkedIn: "www.linkedin.com/in/ankur-basavarsu-120649261",
-    link: "https://github.com/AnkurB24",
-    image: ANKUR,
-  },
- 
-  
+
  
   {
     name: "Shubhang Gautam",
@@ -148,8 +156,6 @@ const projectTeam = [
     image: SHUBHANG,
   },
  
-  
-  
   {
     name: "Jay Agarwal",
     role: "Development Team",
@@ -168,14 +174,6 @@ const projectTeam = [
   },
 
   {
-    name: "Aryan Sharma",
-    role: "Development Team",
-    linkedIn: "https://in.linkedin.com/in/aryan-sharma-23150921a",
-    link: "https://github.com/im-NL",
-    image: ARYAN,
-  },
-
-  {
     name: "Avichal Dwivedi",
     role: "Development Team",
     linkedIn: "https://www.linkedin.com/in/avichal-dwivedi-789a66288?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -188,13 +186,30 @@ const projectTeam = [
     name: "Praroop Garg",
     role: "Development Team",
     linkedIn: "https://www.linkedin.com/in/praroop-garg-742856252",
-    link: "github.com/slydite",
+    link: "https://github.com/slydite",
     image: PRAROOP,
   },
  
 ];
 
 const researchTeam = [
+
+  {
+    name: "Vishnu Hari",
+    role: "Head (Research Team)",
+    linkedIn: "https://linkedin.com/in/hvishnu",
+    link: "https://github.com/lycogno",
+    image: VISHNU,
+  },
+
+  {
+    name: "Prateek Agarwal",
+    role: "Joint-Head (Research Team)",
+    linkedIn: "https://www.linkedin.com/in/prateek-agarwal-877184280/",
+    link: "https://github.com/Prateek-Agarwal2006",
+    image: PRATEEK,
+  },
+
   {
     name: "Amritpal Singh",
     role: "Research Team",
@@ -205,17 +220,11 @@ const researchTeam = [
   {
     name: "Aditya Mittal",
     role: "Research Team",
-    linkedIn: "www.linkedin.com/in/adityamittal1000101",
+    linkedIn: "https://www.linkedin.com/in/adityamittal1000101",
     link: "https://github.com/Elactix-Nova",
     image: ADITYA,
   },
-  {
-    name: "Vishnu Hari",
-    role: "Research Team",
-    linkedIn: "linkedin.com/in/hvishnu",
-    link: "github.com/lycogno",
-    image: VISHNU,
-  },
+
   {
     name: "Krish Bhatnagar",
     role: "Research Team",
@@ -245,16 +254,7 @@ const researchTeam = [
     link: "https://github.com/neha305",
     image: NEHA,
   },
- 
-
-  {
-    name: "Prateek Agarwal",
-    role: "Research Team",
-    linkedIn: "https://www.linkedin.com/in/prateek-agarwal-877184280/",
-    link: "https://github.com/Prateek-Agarwal2006",
-    image: PRATEEK,
-  },
-  
+   
 
   {
     name: "Siddhant Mishra",
@@ -276,8 +276,15 @@ const researchTeam = [
 
 const webTeam = [
   {
+    name: "Riya Mittal",
+    role: "Head (Events Team)",
+    linkedIn: "https://www.linkedin.com/in/riya-mittal-69bb53213/",
+    link: "https://github.com/rmtl2111/",
+    image: RIYA,
+  },
+  {
     name: "Hitansh Chadha",
-    role: "Events Team",
+    role: "Joint-Head (Events Team)",
     linkedIn: "https://www.linkedin.com/in/hitansh-chadha-07ba5219b/",
     link: "https://github.com/hitanshchadha",
     image:HITANSH,
@@ -290,32 +297,11 @@ const webTeam = [
     image:TANYA,
   },
   {
-    name: "Yashwanth Varma Dandu",
-    role: "Events Team",
-    linkedIn: "https://www.linkedin.com/in/yashwanth-varma-dandu-2b3608292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    link: "https://github.com/Yashwanth-2118",
-    image: YASHWANTH,
-  },
-  {
     name: "Aditi Bansal",
     role: "Events Team",
     linkedIn: "https://www.linkedin.com/in/aditi-bansal-6995151bb/",
     link: "https://github.com/aditibansall",
     image:ADITI,
-  },
-  {
-    name: "Riya Mittal",
-    role: "Events Team",
-    linkedIn: "https://www.linkedin.com/in/riya-mittal-69bb53213/",
-    link: "https://github.com/rmtl2111/",
-    image: RIYA,
-  },
-  {
-    name: "Manas Choudhary",
-    role: "Events Team",
-    linkedIn: "https://www.linkedin.com/in/manas-choudhary-56374028b",
-    link: "https://github.com/ManasChoudhary-01",
-    image: MANAS,
   },
   {
     name: "Bala Avijit Chaturvedula",
@@ -331,6 +317,20 @@ const webTeam = [
     linkedIn: "https://www.linkedin.com/in/rudra-khaitan-1aa4b7289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     link: "https://github.com/Rukh79",
     image: RUDRA,
+  },
+  {
+    name: "Manas Choudhary",
+    role: "Events Team",
+    linkedIn: "https://www.linkedin.com/in/manas-choudhary-56374028b",
+    link: "https://github.com/ManasChoudhary-01",
+    image: MANAS,
+  },
+  {
+    name: "Yashwanth Varma Dandu",
+    role: "Events Team",
+    linkedIn: "https://www.linkedin.com/in/yashwanth-varma-dandu-2b3608292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    link: "https://github.com/Yashwanth-2118",
+    image: YASHWANTH,
   },
 
 ];
