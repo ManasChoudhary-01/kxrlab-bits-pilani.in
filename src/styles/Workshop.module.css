@@ -13,6 +13,19 @@
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
     border: 1px solid rgba(255, 255, 255, 0.18);
+    min-height: 50vh;
+}
+
+.soon {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.soon h1 {
+    font-size: 4rem;
+    font-weight: 700;
 }
 
 .header {
@@ -56,8 +69,14 @@
 
 }
 
-.header .speaker {
+.header .profile {
+    display: flex;
     margin-left: auto;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.header .speaker {
     height: 220px;
     width: 200px;
 }

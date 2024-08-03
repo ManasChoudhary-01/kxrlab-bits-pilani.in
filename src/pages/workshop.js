@@ -9,60 +9,76 @@ import WorkshopCard from "@/components/WorkshopCard";
 import projects from "../../public/images/backgrounds/projects.jpg";
 import styles from "../styles/Workshop.module.css";
 
+import kt from "../../public/images/kt.jpeg";
+import ANKUR from "../../public/images/team/ANKUR.jpeg";
+import JAY_AGARWAL from "../../public/images/team/JAY_AGARWAL.jpg";
+
 const workshopData = {
     blender: [
         {
             id: "1",
-            img: "https://drive.google.com/thumbnail?sz=w1000&id=1d5sSaCFVdYqT8-t4b9l4N5qnIP8wuZuA",
-            sname: "Manas Choudhary",
+            img1: kt,
+            sname1: "Kamlesh Tiwari",
+            img2: ANKUR,
+            sname2: "Ankur Basavarsu",
             team: "blender",
             desc: "Dive into the world of 3D modeling and animation with our hands-on Blender workshop. Learn the basics of Blender, from interface navigation to creating stunning 3D assets. Perfect for beginners and those looking to enhance their skills!",
             date: "11th August",
-            form: "",
-            topic1: "Making Virtual Piano",
-            time1: "09:00 AM - 12:00 PM",
-            line11: "Introduction To Unity Scripting",
-            line12: "Vuforia Virtual Buttons",
-            topic2: "Augmented Reality Basics",
-            time2: "01:00 PM - 03:00 PM",
-            line21: "AR Frameworks Overview",
-            line22: "Creating AR Experiences with ARKit",
-            topic3: "Advanced Unity Techniques",
-            time3: "03:30 PM - 05:00 PM",
-            line31: "Shader Programming",
-            line32: "Physics and Animations in Unity",
-            topic4: "Project Showcase",
-            time4: "05:30 PM - 06:30 PM",
-            line41: "Presenting Your VR/AR Projects",
-            line42: "Feedback and Q&A Session"
+            form: "https://docs.google.com/forms/d/e/1FAIpQLSc1CVt764kNHZ0Ygs8LbZC_wfi_s-_aHJLWe0MZxliT771YJw/viewform",
+            topic1: "Introduction",
+            time1: "9:30 AM - 10:00 AM",
+            line11: "Background, Applications",
+            line12: "Tools, Projects",
+            topic2: "Introduction to Blender",
+            time2: "10:00 AM - 11:30 AM",
+            line21: "Introduction to Blender",
+            line22: "Exploring the software interface and menus.",
+            topic3: "Programming with Blender",
+            time3: "11:30 AM - 1:00 PM",
+            line31: "Basic 3D modeling commands, sculpting.",
+            line32: "Rendering, exporting, and Unity file formats.",
+            topic4: "Break",
+            time4: "1:00 PM - 2:00 PM",
+            line41: "Eat And Enjoy",
+            line42: "Networking",
+            topic5: "Hands-On Session",
+            time5: "2:00 PM - 5:00 PM",
+            line51: "Design a clocktower model for use in Unity.",
+            line52: "Feedback and Q&A Session"
         },
     ],
 
     unity: [
         {
             id: "1",
-            img: "",
-            sname: "",
-            team: "",
+            img1: kt,
+            sname1: "Kamlesh Tiwari",
+            img2: JAY_AGARWAL,
+            sname2: "Jay Agarwal",
+            team: "unity",
             desc: "Master the art of game development with our comprehensive Unity workshop. This session will cover everything from the basics of the Unity interface to creating interactive AR/VR experiences. Ideal for anyone wanting to bring their ideas to life!",
             date: "25th August",
-            form: "",
-            topic1: "",
-            time1: "",
-            line11: "",
-            line12: "",
-            topic2: "",
-            time2: "",
-            line21: "",
-            line22: "",
-            topic3: "",
-            time3: "",
-            line31: "",
-            line32: "",
-            topic4: "",
-            time4: "",
-            line41: "",
-            line42: ""
+            form: "https://docs.google.com/forms/d/e/1FAIpQLSc1CVt764kNHZ0Ygs8LbZC_wfi_s-_aHJLWe0MZxliT771YJw/viewform",
+            topic1: "Introduction",
+            time1: "9:30 AM - 10:00 AM",
+            line11: "Project Idea, Concept and goals",
+            line12: "Mathematical Background",
+            topic2: "Introduction to Unity",
+            time2: "10:00 AM - 11:30 AM",
+            line21: "Background and Setting up the environment",
+            line22: "Exploring the software interface and options.",
+            topic3: "Introduction to Unity",
+            time3: "11:30 AM - 1:00 PM",
+            line31: "Programming with Unity",
+            line32: "Creating a basic game in unity",
+            topic4: "Break",
+            time4: "1:00 PM - 2:00 PM",
+            line41: "Eat And Enjoy",
+            line42: "Networking",
+            topic5: "Hands-On Session",
+            time5: "2:00 PM - 5:00 PM",
+            line51: "Creating a basic AR app for mobile",
+            line52: "Feedback and Q&A Session"
         },
     ],
 
@@ -71,7 +87,7 @@ const workshopData = {
             id: "1",
             img: "",
             sname: "",
-            team: "",
+            team: "null",
             desc: " HACK-XR 2024: Our premier AR/VR hackathon where you can win amazing cash prizes and exclusive goodies! Note: Only students who register for the workshops will be eligible to participate in HACK-XR 2024.",
             date: "",
             form: "",
@@ -90,7 +106,11 @@ const workshopData = {
             topic4: "",
             time4: "",
             line41: "",
-            line42: ""
+            line42: "",
+            topic5: "",
+            time5: "",
+            line51: "",
+            line52: ""
         },
     ]
 };
@@ -132,8 +152,10 @@ const Workshop = () => {
                         {workshopData[selectedTeam].map(data => (
                             <WorkshopCard
                                 key={data.id}
-                                img={data.img}
-                                sname={data.sname}
+                                img1={data.img1}
+                                sname1={data.sname1}
+                                img2={data.img2}
+                                sname2={data.sname2}
                                 team={data.team}
                                 desc={data.desc}
                                 date={data.date}
@@ -154,6 +176,10 @@ const Workshop = () => {
                                 time4={data.time4}
                                 line41={data.line41}
                                 line42={data.line42}
+                                topic5={data.topic5}
+                                time5={data.time5}
+                                line51={data.line51}
+                                line52={data.line52}
                             />
                         ))}
                     </div>
