@@ -1,0 +1,131 @@
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.details {
+    margin-top: 3rem;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 2px 30px 0 rgba(31, 135, 48, 0.07);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.header {
+    margin: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.content .bottom {
+    margin: 2rem 0rem 0rem 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.content .bottom h6 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.content .bottom h6 span {
+    color: #D9003D;
+}
+
+.content .bottom a {
+    text-decoration: none;
+    /* border: 2px solid #D9003D; */
+    background-color: #D9003D;
+    padding: 0.4rem 0.7rem;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+
+}
+
+.header .speaker {
+    margin-left: auto;
+    height: 220px;
+    width: 200px;
+}
+
+
+.header .speaker img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.header .speaker p {
+    padding-top: 5px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.header .speaker p span {
+    color: #D9003D;
+}
+
+.timeline {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid #D9003D;
+    border-radius: 5px;
+    margin: 2rem;
+    padding: 0.5rem 0;
+    gap: 10%;
+}
+
+.timeline:hover {
+    box-shadow: 0 4px 15px 0 rgba(217, 0, 61, 0.3);
+}
+
+.timeline .left {
+    width: 52%;
+    padding-left: 4rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.timeline .left h6 {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.timeline .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.timeline .right div {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.timeline .right p {
+    font-size: 16px;
+}
+
+.timeline .right span {
+    margin-top: 7px;
+    height: 8px;
+    width: 8px;
+    background-color: #D9003D;
+    border-radius: 50%;
+    color: #D9003D;
+}
