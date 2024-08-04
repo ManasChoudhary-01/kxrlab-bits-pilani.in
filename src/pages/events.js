@@ -206,6 +206,22 @@ const events = () => {
           />
 
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-8">
+          <div className="col-span-12">
+              <FeaturedEvent
+                type="Workshop"
+                title="Blender & Unity"
+                summary="AR/VR workshop is a workshop designed for XR enthusiasts to make their weekend productive. The workshop will give participants an opportunity to meet, learn and discuss their ideas with like-minded cohorts and mentors. The two days of the workshop will be spent in getting a deeper understanding of the technology through various hands-on experiences. At the culmination of the workshop, each participant will be engraved with the So skills required to enter the real world of XR."
+                img1={event1}
+                img2="null"
+                img3="null"
+                img4="null"
+                link="/workshop"
+                sourceLink=""
+                button="Register Here"
+                source=""
+              />
+            </div>
+            
             <div className="col-span-12">
               <FeaturedEvent
                 type="Talk Session"
