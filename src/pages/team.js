@@ -8,7 +8,7 @@ import ParticleContainer from "@/components/ParticleContainer";
 import Image from "next/image";
 import team from "../../public/images/backgrounds/team.jpeg";
 
-import kt from "../../public/images/kt.jpeg";
+import kt from "../../public/images/team/kt.jpg";
 import ab from "../../public/images/ab.jpeg";
 import ys from '../../public/images/team/YASHVARDHAN_SHARMA.jpg';
 import ARYAN_BAKSHI from "../../public/images/team/ARYAN_BAKSHI.jpeg";

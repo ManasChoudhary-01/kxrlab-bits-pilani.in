@@ -9,7 +9,7 @@ import WorkshopCard from "@/components/WorkshopCard";
 import projects from "../../public/images/backgrounds/projects.jpg";
 import styles from "../styles/Workshop.module.css";
 
-import kt from "../../public/images/kt.jpeg";
+import kt from "../../public/images/team/kt.jpg";
 import ANKUR from "../../public/images/team/ANKUR.jpeg";
 import JAY_AGARWAL from "../../public/images/team/JAY_AGARWAL.jpg";
 
@@ -18,7 +18,7 @@ const workshopData = {
         {
             id: "1",
             img1: kt,
-            sname1: "Kamlesh Tiwari",
+            sname1: " Prof Kamlesh Tiwari",
             img2: ANKUR,
             sname2: "Ankur Basavarsu",
             team: "blender",
@@ -52,7 +52,7 @@ const workshopData = {
         {
             id: "1",
             img1: kt,
-            sname1: "Kamlesh Tiwari",
+            sname1: " Prof Kamlesh Tiwari",
             img2: JAY_AGARWAL,
             sname2: "Jay Agarwal",
             team: "unity",
