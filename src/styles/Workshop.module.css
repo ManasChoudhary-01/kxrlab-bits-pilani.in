@@ -31,11 +31,11 @@
 .header {
     margin: 2rem;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .content {
-    width: 50%;
+    width: 100%;
     display: flex;
     flex-direction: column;
 }
@@ -43,7 +43,7 @@
 .content .bottom {
     margin: 2rem 0rem 0rem 0rem;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     gap: 4rem;
 }
@@ -70,8 +70,9 @@
 }
 
 .header .profile {
+    margin-top: 1rem;
     display: flex;
-    margin-left: auto;
+    justify-content: center;
     gap: 2rem;
     margin-bottom: 2rem;
 }
@@ -308,8 +309,25 @@
         width: 6px;
     }
 
+    .header .profile {
+        flex-wrap: wrap;
+        row-gap: 4rem;
+    }
+
     .header .speaker {
-        height: 180px;
-        width: 40vw;
+        height: 170px;
+        width: 29vw;
+    }
+}
+
+@media(max-width: 400px) {
+
+    .header .profile {
+        gap: 1rem;
+        row-gap: 4rem;
+    }
+
+    .header .speaker {
+        width: 29vw;
     }
 }
