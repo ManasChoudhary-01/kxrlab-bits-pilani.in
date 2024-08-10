@@ -35,7 +35,7 @@ import event2 from "../../public/images/Events/event32.jpg";
 import event21 from "../../public/images/Events/event21.jpg"
 import event22 from "../../public/images/Events/event22.jpg"
 import event23 from "../../public/images/Events/event23.jpg"
-import blender from "../../public/images/Events/blender.jpg";
+import blender from "../../public/images/Events/blender.jpeg";
 
 // const FramerImage = motion(Image);
 
