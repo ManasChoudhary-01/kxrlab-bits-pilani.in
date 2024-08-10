@@ -8,7 +8,7 @@ import ParticleContainer from "@/components/ParticleContainer";
 import Image from "next/image";
 import team from "../../public/images/backgrounds/team.jpeg";
 
-import kt from "../../public/images/kt.jpeg";
+import kt from "../../public/images/team/kt.jpg";
 import ab from "../../public/images/ab.jpeg";
 import ys from '../../public/images/team/YASHVARDHAN_SHARMA.jpg';
 import ARYAN_BAKSHI from "../../public/images/team/ARYAN_BAKSHI.jpeg";
@@ -289,28 +289,28 @@ const webTeam = [
     link: "https://github.com/hitanshchadha",
     image:HITANSH,
   },
-  {
-    name: "Tanya Keshwani",
-    role: "Events Team",
-    linkedIn: "https://www.linkedin.com/in/tanya-keshwani-a98b39212/",
-    link: "https://github.com/taya12hu",
-    image:TANYA,
-  },
-  {
-    name: "Aditi Bansal",
-    role: "Events Team",
-    linkedIn: "https://www.linkedin.com/in/aditi-bansal-6995151bb/",
-    link: "https://github.com/aditibansall",
-    image:ADITI,
-  },
-  {
-    name: "Bala Avijit Chaturvedula",
-    role: "Events Team",
-    linkedIn: "https://www.linkedin.com/in/bala-avijit-chaturvedula-8773a1262?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-    link: "",
-    image: BALA,
+  // {
+  //   name: "Tanya Keshwani",
+  //   role: "Events Team",
+  //   linkedIn: "https://www.linkedin.com/in/tanya-keshwani-a98b39212/",
+  //   link: "https://github.com/taya12hu",
+  //   image:TANYA,
+  // },
+  // {
+  //   name: "Aditi Bansal",
+  //   role: "Events Team",
+  //   linkedIn: "https://www.linkedin.com/in/aditi-bansal-6995151bb/",
+  //   link: "https://github.com/aditibansall",
+  //   image:ADITI,
+  // },
+  // {
+  //   name: "Bala Avijit Chaturvedula",
+  //   role: "Events Team",
+  //   linkedIn: "https://www.linkedin.com/in/bala-avijit-chaturvedula-8773a1262?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+  //   link: "",
+  //   image: BALA,
 
-  },
+  // },
   {
     name: "Rudra Khaitan",
     role: "Events Team",

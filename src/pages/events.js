@@ -6,6 +6,8 @@ import Link from "next/link";
 import Image from "next/image";
 import { GithubIcon, LinkedInIcon } from "@/components/Icons";
 import { Swiper, SwiperSlide } from 'swiper/react';
+import CustomLink from "@/components/Navbar";
+import { useRouter } from "next/router";
 
 // Import Swiper styles
 import 'swiper/css';
@@ -33,6 +35,7 @@ import event2 from "../../public/images/Events/event32.jpg";
 import event21 from "../../public/images/Events/event21.jpg"
 import event22 from "../../public/images/Events/event22.jpg"
 import event23 from "../../public/images/Events/event23.jpg"
+import blender from "../../public/images/Events/blender.jpeg";
 
 // const FramerImage = motion(Image);
 
@@ -55,13 +58,18 @@ const FeaturedEvent = ({
   button,
   source,
 }) => {
+  const router = useRouter();
+  const handleClick = (e) => {
+    e.preventDefault();
+    router.push(link);
+  };
   return (
     <motion.article className="w-full flex justify-between items-center glassmorphism shadow-2xl p-12 relative lg:flex-col lg:p-8 xs:ronded-2xl xs:p-4 xs:w-[90%] m-0">
-      <Link
-        href={link}
-        target="_blank"
+      <button
+        
         className="w-1/2 cursor-pointer overflow-hidden lg:w-full"
-        onClick={(e) => e.preventDefault()}
+        onClick={handleClick}
+        
       >
         {/* <FramerImage
           src={img}
@@ -129,7 +137,7 @@ const FeaturedEvent = ({
             />
           </SwiperSlide>
         </Swiper>
-      </Link>
+      </button>
       <div className="w-1/2 flex flex-col items-start justify-between pl-6 lg:w-full lg:pl-0 lg:pt-6">
         <motion.span
           className="font-medium text-xl text-primaryDark xs:text-base"
@@ -137,14 +145,14 @@ const FeaturedEvent = ({
         >
           {type}
         </motion.span>
-        <Link href={link} target="_blank">
+        <button  href={link} target="_blank">
           <motion.h2
             className="my-2 w-full text-left text-4xl font-bold hover:underline hover:underline-offset-2"
             {...slideAnimation1("right", 0.5)}
           >
             {title}
           </motion.h2>
-        </Link>
+        </button>
         <motion.p
           className="my-2 font-medium text-dark sm:text-sm"
           {...slideAnimation("right", 0.5)}
@@ -156,22 +164,21 @@ const FeaturedEvent = ({
           {...HeadAnimation("right", 0)}
         >
           {sourceLink ? (
-            <Link href={sourceLink} target="_blank" className="w-10">
+            <button href={sourceLink} target="_blank" className="w-10">
               {" "}
               {source ? <LinkedInIcon /> : <GithubIcon />}{" "}
-            </Link>
+            </button>
           ) : (
             <div></div>
           )}
           {button ? (
-            <Link
-              href={link}
-              target="_blank"
+            <button
+              onClick={handleClick}
               className="mx-4 flex items-center rounded-md bg-primary text-light hover:bg-transparent p-2 px-6 text-lg border-2 border-primary border-solid hover:text-primary md:p-2 md:px-4 md:text-base duration-500 font-[50] tracking-[0.075rem]"
             >
               {" "}
               {button}{" "}
-            </Link>
+            </button>
           ) : (
             <div></div>
           )}
@@ -182,6 +189,7 @@ const FeaturedEvent = ({
 };
 
 const events = () => {
+  const router = useRouter();
   return (
     <div className="">
       <Head>
@@ -211,7 +219,7 @@ const events = () => {
                 type="Workshop"
                 title="Blender & Unity"
                 summary="AR/VR workshop is a workshop designed for XR enthusiasts to make their weekend productive. The workshop will give participants an opportunity to meet, learn and discuss their ideas with like-minded cohorts and mentors. The two days of the workshop will be spent in getting a deeper understanding of the technology through various hands-on experiences. At the culmination of the workshop, each participant will be engraved with the So skills required to enter the real world of XR."
-                img1={event1}
+                img1={blender}
                 img2="null"
                 img3="null"
                 img4="null"

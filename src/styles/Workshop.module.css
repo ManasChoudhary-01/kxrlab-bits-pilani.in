@@ -31,11 +31,11 @@
 .header {
     margin: 2rem;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .content {
-    width: 50%;
+    width: 100%;
     display: flex;
     flex-direction: column;
 }
@@ -49,7 +49,7 @@
 }
 
 .content .bottom h6 {
-    font-size: 16px;
+    font-size: 26px;
     font-weight: 600;
 }
 
@@ -57,21 +57,28 @@
     color: #D9003D;
 }
 
-.content .bottom a {
+.registerButton {
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+.registerButton a {
     text-decoration: none;
     /* border: 2px solid #D9003D; */
     background-color: #D9003D;
-    padding: 0.4rem 0.7rem;
+    padding: 0.6rem 2.2rem;
     border-radius: 5px;
     color: #fff;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 22px;
 
 }
 
 .header .profile {
+    margin-top: 1rem;
     display: flex;
-    margin-left: auto;
+    justify-content: center;
     gap: 2rem;
     margin-bottom: 2rem;
 }
@@ -211,7 +218,7 @@
     
     .content .bottom {
         margin: 0.2rem 0rem 0rem 0rem;
-        justify-content: left;
+        justify-content: center;
     }
     
     .header .profile {
@@ -263,20 +270,18 @@
 @media(max-width: 500px) {
 
     .content .bottom h6 {
-        font-size: 14px;
-        font-weight: 550;
+        font-size: 18px;
+        font-weight: 600;
     }
 
     .desc {
         font-size: 14px;
     }
 
-    .content .bottom a {
-        text-align: center;
-        margin-left: auto;
-        padding: 0.2rem 0.5rem;
+    .registerButton a {
+        padding: 0.4rem 1.4rem;
         font-weight: 600;
-        font-size: 14px;
+        font-size: 18px;
     
     }
 
@@ -308,8 +313,25 @@
         width: 6px;
     }
 
+    .header .profile {
+        flex-wrap: wrap;
+        row-gap: 4rem;
+    }
+
     .header .speaker {
-        height: 180px;
-        width: 40vw;
+        height: 170px;
+        width: 29vw;
+    }
+}
+
+@media(max-width: 400px) {
+
+    .header .profile {
+        gap: 1rem;
+        row-gap: 4rem;
+    }
+
+    .header .speaker {
+        width: 29vw;
     }
 }

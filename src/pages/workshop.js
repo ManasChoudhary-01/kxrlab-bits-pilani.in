@@ -9,7 +9,8 @@ import WorkshopCard from "@/components/WorkshopCard";
 import projects from "../../public/images/backgrounds/projects.jpg";
 import styles from "../styles/Workshop.module.css";
 
-import kt from "../../public/images/kt.jpeg";
+import kt from "../../public/images/team/kt.jpg";
+import ab from "../../public/images/ab.jpeg";
 import ANKUR from "../../public/images/team/ANKUR.jpeg";
 import JAY_AGARWAL from "../../public/images/team/JAY_AGARWAL.jpg";
 
@@ -18,12 +19,14 @@ const workshopData = {
         {
             id: "1",
             img1: kt,
-            sname1: "Kamlesh Tiwari",
-            img2: ANKUR,
-            sname2: "Ankur Basavarsu",
+            sname1: " Prof Kamlesh Tiwari",
+            img2: ab,
+            sname2: "Prof Ashutosh Bhatia",
+            img3: ANKUR,
+            sname3: "Ankur Basavarsu",
             team: "blender",
             desc: "Dive into the world of 3D modeling and animation with our hands-on Blender workshop. Learn the basics of Blender, from interface navigation to creating stunning 3D assets. Perfect for beginners and those looking to enhance their skills!",
-            date: "11th August",
+            date: "25th August",
             form: "https://docs.google.com/forms/d/e/1FAIpQLSc1CVt764kNHZ0Ygs8LbZC_wfi_s-_aHJLWe0MZxliT771YJw/viewform",
             topic1: "Introduction",
             time1: "9:30 AM - 10:00 AM",
@@ -52,12 +55,14 @@ const workshopData = {
         {
             id: "1",
             img1: kt,
-            sname1: "Kamlesh Tiwari",
-            img2: JAY_AGARWAL,
-            sname2: "Jay Agarwal",
+            sname1: " Prof Kamlesh Tiwari",
+            img2: ab,
+            sname2: "Prof Ashutosh Bhatia",
+            img3: JAY_AGARWAL,
+            sname3: "Jay Agarwal",
             team: "unity",
             desc: "Master the art of game development with our comprehensive Unity workshop. This session will cover everything from the basics of the Unity interface to creating interactive AR/VR experiences. Ideal for anyone wanting to bring their ideas to life!",
-            date: "25th August",
+            date: "1st September",
             form: "https://docs.google.com/forms/d/e/1FAIpQLSc1CVt764kNHZ0Ygs8LbZC_wfi_s-_aHJLWe0MZxliT771YJw/viewform",
             topic1: "Introduction",
             time1: "9:30 AM - 10:00 AM",
@@ -156,6 +161,8 @@ const Workshop = () => {
                                 sname1={data.sname1}
                                 img2={data.img2}
                                 sname2={data.sname2}
+                                img3={data.img3}
+                                sname3={data.sname3}
                                 team={data.team}
                                 desc={data.desc}
                                 date={data.date}

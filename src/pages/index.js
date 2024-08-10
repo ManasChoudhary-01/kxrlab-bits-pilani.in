@@ -25,11 +25,11 @@ export default function Home() {
       </div>
 
       <div className="w-full h-full overflow-hidden">
+      
         <main className="flex items-center text-dark w-full min-h-[95vh] py-24 ">
+        
           <Layout className="p-0 md:p-1.5 sm:p-8">
-            <Link href="/workshop" target="_blank">
-                <button className="items-center rounded-md bg-primary text-light  p-2 px-6 text-lg border-2 border-primary border-solid md:text-base duration-500 font-[50] tracking-[0.075rem]">Register for the workshop</button>
-            </Link>
+            
             <div className="flex items-center justify-between w-full lg:flex-col">
               <div className="w-1/2 md:w-full bg-transparent"></div>
               <motion.div
